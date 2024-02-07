@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+beautifulsoup4 = "*"
+mypy = "*"
+pyyaml = "*"
+boto3 = "*"
+pytest = "*"
+pydantic = "*"
+pandas = "*"
+numpy = "*"
+psycopg2 = "*"
+python-dotenv = "*"
+dbt-redshift = "*"
+airflow-dbt = "*"
+
+[dev-packages]
+black = "*"
+sqlfluff = "*"
+
+[requires]
+python_version = "3.9"
